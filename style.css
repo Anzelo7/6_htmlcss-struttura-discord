@@ -8,3 +8,23 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.container{
+    align-items: center;
+  }
+  
+  .flex{
+    display: flex;
+  }
+  
+  
+  .column{
+    flex-direction: column;
+  }
+
+  .h400{
+    width: 1200px;
+    height: 600px;
+    border: 2px solid black;
+    background-color: gold;
+  }
