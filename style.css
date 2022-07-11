@@ -37,19 +37,42 @@ body{
     
   }
 
+  .login{
+    padding: 1%;
+    border-radius: 30px;
+    font-weight: 600;
+    background-color: lightgray;
+  }
+
   .link a{
     font-weight: 600;
     margin: 1rem;
     color: white;
   }
 
-  .login button{
-    border-color: lightgray;
-    background-color: lightgray;
+  .login a{
+    color: black;
+    font-weight: 600;
   }
 
   .browser{
-    height: 340px;
+    width: 660px;
+    margin: 150px 268px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+
+  .browser h1{
+    font-size: 46px;
+    margin-bottom: 40px;
+  }
+
+  .browser p{
   }
 
   .h600{
