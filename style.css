@@ -1,225 +1,329 @@
 /*css default*/
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    }
-
-body{
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    align-items: center;
-  }
-  
-  .flex{
-    display: flex;
-  }
-  
-  .wrap{
-    flex-wrap: wrap;
-  }
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
-  .column{
-    flex-direction: column;
-  }
+.container {
+  align-items: center;
+}
 
-  .h600{
-    width: 1900px;
-    height: 600px;
-  }
+.flex {
+  display: flex;
+}
 
-  .h800{
-    width: 1900px;
-    height: 800px;
-  }
+.wrap {
+  flex-wrap: wrap;
+}
 
-  /*header*/
-  /*menu*/
+.column {
+  flex-direction: column;
+}
 
-  .top{
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(0, 119, 255, 0.849);
-  }
+.h600 {
+  width: 1900px;
+  height: 600px;
+}
 
-  .menu{
-    font-size: 12px;
-    height: 60px;
-    justify-content: space-around;
-    align-items: center;
-  }
+.h800 {
+  width: 1900px;
+  height: 800px;
+}
 
-  /*.logo{
+.grey-wave{
+  display: block;
+  color: rgb(227, 228, 231);
+  fill: rgb(227, 228, 231);
+}
+
+.grey-wave .last{
+  display: block;
+  transform-origin: rotate(180deg);
+}
+
+.white-wave{
+  display: block;
+  background-color: rgb(227, 228, 231);
+}
+
+
+/*header*/
+/*menu*/
+
+.top {
+  display: flex;
+  flex-direction: column;
+  background-image: url(img_discord/jumbo.png);
+  background-size: cover;
+}
+
+.menu {
+  font-size: 12px;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*.logo{
     
   }*/
-  
-  .link a{
-    font-weight: 600;
-    margin: 1rem;
-    color: white;
-  }
 
-  .login{
-    padding: 10px 15px;
-    border-radius: 30px;
-    font-weight: 600;
-    background-color: white;
-  }
+.link a {
+  font-weight: 600;
+  margin: 1rem;
+  color: white;
+}
 
-  .login a{
-    color: rgb(56, 56, 56);
-    font-weight: 600;
-  }
-  /*/menu*/
+.login {
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-weight: 600;
+  background-color: white;
+}
 
-  /*browser*/
+.login a {
+  color: rgb(56, 56, 56);
+  font-weight: 600;
+}
 
-  .browser{
-    width: 660px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    font-weight: 600;
-    line-height: 1.5rem;
-  }
+/*/menu*/
 
-  .browser h1{
-    font-size: 46px;
-    margin-bottom: 40px;
-  }
+/*browser*/
 
-  .browser a:first-of-type{
-    margin: 20px;
-    padding: 10px 30px;
-    border-radius: 30px;
-    color: rgb(56, 56, 56);
-    background-color: white;
-  }
+.browser {
+  width: 660px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
 
-  .browser a span{
-    margin-right: 10px;
-    font-size: 20px;
-    font-weight: 900;
-  }
+.browser h1 {
+  font-size: 46px;
+  margin-bottom: 40px;
+}
 
-  /*.browser a:first-of-type::before{
+.browser a:first-of-type {
+  margin: 20px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: rgb(56, 56, 56);
+  background-color: white;
+}
+
+.browser a span {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/*.browser a:first-of-type::before{
     content: "\1F817";
     font-weight: bolder;
     font-size: 21px;   
     color: rgb(56, 56, 56);
   }*/
 
-  .browser a:last-of-type{
-    margin: 20px;
-    padding: 10px 30px;
-    border-radius: 30px;
-    background-color: rgb(56, 56, 56);
-    color: white;
-  }
+.browser a:last-of-type {
+  margin: 20px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: rgb(56, 56, 56);
+  color: white;
+}
+
 /*/browser*/
 /*/heeader*/
 
 /*main*/
 
-.flex .content{
-    display: flex;
-    justify-content: space-around;
+.flex .content {
+  display: flex;
+  justify-content: space-around;
 }
 
 .white{
-    background-color: white;
+  background-color: white;
 }
 
-.lightgrey{
-    background-color: rgb(227, 228, 231);
+.lightgrey {
+  background-color: rgb(227, 228, 231);
 }
 
-.flex .studygroup{
-    width: 660px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-    color: black;
-    font-weight: 600;
+.content p {
+  margin: 80px 200px;
+  font-size: 15px;
 }
 
-.studygroup h2{
-    margin: 90px 200px;
-    font-size: 35px;
-    line-height: 2.5rem;
-    margin-bottom: -50px;
-}
+/*studygroup*/
 
-.content p{
-    margin: 80px 200px;
-    font-size: 15px;
-}
- 
-.flex .voicecon{
-    width: 660px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-    color: black;
-    font-weight: 600;
-}
-
-.voicecon h2{
-    margin: 100px 200px;
-    font-size: 35px;
-    line-height: 2.5rem;
-    margin-bottom: -50px;
-}
-
-.flex .fandom{
-    width: 660px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-    color: black;
-    font-weight: 600;
-}
-
-.fandom h2{
-    margin: 100px 200px;
-    font-size: 35px;
-    line-height: 2.5rem;
-    margin-bottom: -50px;
-}
-
-.flex .forend{
-    display: grid;
-    justify-items: center;
-}
-
-.text{
-    text-align: center;
-}
-
-.flex .foot{
+.flex .studygroup {
+  width: 660px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
   flex-direction: column;
-  background-color: rgb(67, 67, 67);
+  color: black;
+  font-weight: 600;
 }
 
-.footer-link{
-  width: 1200px;
-  margin: 130px 400px;
+.studygroup h2 {
+  margin: 90px 200px;
+  font-size: 35px;
+  line-height: 2.5rem;
+  margin-bottom: -50px;
+}
+
+/*/studygroup*/
+
+/*voicecon*/
+
+.flex .voicecon {
+  width: 660px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  font-weight: 600;
+}
+
+.voicecon h2 {
+  margin: 100px 200px;
+  font-size: 35px;
+  line-height: 2.5rem;
+  margin-bottom: -50px;
+}
+
+/*/voicecon*/
+
+/*fandom*/
+
+.flex .fandom {
+  width: 660px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  font-weight: 600;
+}
+
+.fandom h2 {
+  margin: 100px 200px;
+  font-size: 35px;
+  line-height: 2.5rem;
+  margin-bottom: -50px;
+}
+
+/*/fandom*/
+
+/*forend*/
+
+.flex .forend {
+  display: grid;
+  justify-items: center;
+}
+
+.text {
+  width: 1000px;
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
   font-weight: 600;
   line-height: 1.5rem;
 }
 
-.footer-endline{
+.text h2{
+  font-size: 36px;
+}
+
+.forend p{
+  margin: 0;
+  font-size: 12px;
+  width: 650px;
+}
+
+.forend h2:last-child{
+  margin: 0;
+}
+
+
+.forend a{
+  padding: 10px 30px;
+  margin:auto;
+  font-weight: 600;
+  border-radius: 30px;
+  color: rgb(56, 56, 56);
+  background-color: #5865f2;
+}
+
+.forend a span{
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/*/forend*/
+/*/main*/
+
+/*footer*/
+
+.flex .foot {
+  flex-direction: column;
+  background-color: rgb(67, 67, 67);
+}
+
+.footer-link {
+  width: 1200px;
+  margin: 100px 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  font-weight: 600;
+}
+
+.footer-link h1 {
+  text-align: start;
+  font-size: 40px;
+  padding: 1%;
+  line-height: 3rem;
+  color: #5865f2;
+}
+
+.footer-link h3 {
+  color: #5865f2;
+}
+
+.footer-link a {
+  font-weight: 600;
+  color: white;
+  line-height: 2rem;
+}
+
+hr {
+  width: 1200px;
+  height: 2px;
+  border: none;
+  background-color: #5865f2;
+  align-self: center;
+}
+
+.flex .footer-endline {
+  width: 1200px;
+  margin-left: 360px;
   font-size: 12px;
   height: 60px;
   background-color: rgb(67, 67, 67);
@@ -227,27 +331,20 @@ body{
   align-items: center;
 }
 
-.footer-link h1{
-
-  color:rgb(168, 171, 255);
+.footer-endline {
+  justify-items: center;
 }
 
-.footer-link h3{
-    color:rgb(168, 171, 255);
+.signup {
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-weight: 600;
+  background-color: #5865f2;
 }
 
-.signup{
-    padding: 10px 15px;
-    border-radius: 30px;
-    font-weight: 600;
-    background-color: rgb(168, 171, 255);
-}
-
-.signup a{
+.signup a {
   color: white;
   font-weight: 600;
 }
-.footer-link a{
-  font-weight: 600;
-  color: white;
-}
+
+/*/footer*/
