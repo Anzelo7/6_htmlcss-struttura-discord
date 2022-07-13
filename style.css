@@ -154,7 +154,6 @@ body {
 /*main*/
 
 .flex .content {
-  display: flex;
   justify-content: space-around;
 }
 
@@ -175,7 +174,6 @@ body {
 
 .flex .studygroup {
   width: 660px;
-  display: flex;
   align-content: center;
   justify-content: center;
   flex-direction: column;
@@ -196,7 +194,6 @@ body {
 
 .flex .voicecon {
   width: 660px;
-  display: flex;
   align-content: center;
   justify-content: center;
   flex-direction: column;
@@ -217,7 +214,6 @@ body {
 
 .flex .fandom {
   width: 660px;
-  display: flex;
   align-content: center;
   justify-content: center;
   flex-direction: column;
@@ -241,10 +237,9 @@ body {
   justify-items: center;
 }
 
-.text {
+.flex .text {
   width: 1000px;
   margin-top: 40px;
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
@@ -257,8 +252,8 @@ body {
   font-size: 36px;
 }
 
-.forend p{
-  margin: 0;
+#text{
+  margin: 0 170px;
   font-size: 12px;
   width: 650px;
 }
