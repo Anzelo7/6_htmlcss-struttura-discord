@@ -134,7 +134,7 @@ body {
 }
 
 .browser a span svg:not(:root){
-  width: 0.80px;
+  width: 0.7px;
   height: -1%;
   overflow: visible;
 }
@@ -279,7 +279,7 @@ body {
 }
 
 .forend a span svg:not(:root){
-  width: 0.80px;
+  width: 0.7px;
   height: -1%;
   overflow: visible;
 }
