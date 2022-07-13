@@ -63,7 +63,7 @@ body {
 }
 
 .menu {
-  font-size: 12px;
+  font-size: 15px;
   height: 60px;
   justify-content: space-around;
   align-items: center;
@@ -112,35 +112,41 @@ body {
   margin-bottom: 40px;
 }
 
-.browser a:first-of-type {
+.browser a:first-of-type{
   margin: 20px;
-  padding: 10px 30px;
-  border-radius: 30px;
-  color: rgb(56, 56, 56);
+  padding: 0px 30px;
+  border-radius: 40px;
+  font-weight: 600;
+  color: black;
   background-color: white;
 }
-
-.browser a span {
-  margin-right: 10px;
-  font-size: 20px;
-  font-weight: 900;
-}
-
-/*.browser a:first-of-type::before{
-    content: "\1F817";
-    font-weight: bolder;
-    font-size: 21px;   
-    color: rgb(56, 56, 56);
-  }*/
 
 .browser a:last-of-type {
   margin: 20px;
   padding: 10px 30px;
   border-radius: 30px;
-  background-color: rgb(56, 56, 56);
   color: white;
+  background-color: rgb(56, 56, 56);
 }
 
+.browser a span{
+  margin-right: 30px;
+}
+
+.browser a span svg:not(:root){
+  width: 0.80px;
+  height: -1%;
+  overflow: visible;
+}
+
+.browser a span svg path:not(svg){
+  transform-origin: right top;
+}
+
+#Macdownload{
+  font-size: 18px;
+  margin-top: 10px;
+}
 /*/browser*/
 /*/heeader*/
 
@@ -263,14 +269,13 @@ body {
   padding: 0px 30px;
   font-weight: 600;
   border-radius: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   color: white;
   background-color: #5865f2;
 }
 
 .forend a span{
   margin-right: 30px;
-  font-weight: 900;
 }
 
 .forend a span svg:not(:root){
@@ -282,12 +287,6 @@ body {
 .forend a span svg path:not(svg){
   transform-origin: right top;
 }
-
-#Macdownload{
-  font-size: 20px;
-  margin-top: 10px;
-}
-
 /*/forend*/
 /*/main*/
 
@@ -297,6 +296,8 @@ body {
   flex-direction: column;
   background-color: rgb(67, 67, 67);
 }
+
+/*link*/
 
 .footer-link {
   width: 1200px;
@@ -347,6 +348,7 @@ hr {
   background-color: #5865f2;
   align-self: center;
 }
+/*/link*/
 
 .flex .footer-endline {
   width: 1200px;
