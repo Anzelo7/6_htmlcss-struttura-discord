@@ -6,6 +6,7 @@
 }
 
 body {
+  margin: 0;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -252,6 +253,7 @@ body {
 }
 
 .text h2{
+  margin-bottom: 30px;
   font-size: 36px;
 }
 
@@ -261,15 +263,22 @@ body {
   width: 650px;
 }
 
-.forend h2:last-child{
-  margin: 0;
+#star{
+  text-align: center;
+  width: 600px;
+  height: 120px;
+  margin-bottom: 7px;
+  line-height: 4rem;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url(img_discord/stars.svg);
 }
 
 .forend a{
-  padding: 0px 30px;
+  margin-left: 6px;
+  padding: 15px 30px;
   font-weight: 600;
   border-radius: 40px;
-  margin-bottom: 35px;
   color: white;
   background-color: #5865f2;
 }
@@ -278,15 +287,12 @@ body {
   margin-right: 30px;
 }
 
-.forend a span svg:not(:root){
+.forend a > #arrow > svg:not(:root){
   width: 0.7px;
   height: -1%;
   overflow: visible;
 }
 
-.forend a span svg path:not(svg){
-  transform-origin: right top;
-}
 /*/forend*/
 /*/main*/
 
